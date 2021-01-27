@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">ConvertItApp</string>
+    <string name="volume_page">Volume</string>
+
+    //Main Screen
+    //title
+    <string name="title">ConvertIt</string>
+    //buttons for conversion activities
+    <string name="massBtn">Mass</string>
+    <string name="currencyBtn">Currency</string>
+    <string name="tempBtn">Temperature</string>
+    <string name="volumeBtn">Volume</string>
+    <string name="areaBtn">Area</string>
+    <string name="Lengthbtn">Length</string>
+
+    //Mass Screen
+    //Mass Array
+    <string-array name="massArray">
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Pound</item>
+    </string-array>
+    //Mass Screen Title
+    <string name="massTitle">Mass Converter</string>
+    //Calculate Mass Button
+    <string name="calcMass">Convert</string>
+    //Clear Mass button Maybe
+    <string name="clrMass">Clear</string>
+    //Mass misc
+    <string name="massFrom">From:</string>
+    <string name="massTo">To:</string>
+
+
+    <string-array name="currencies">
+        <item>EUR</item>
+
+        <item>GBP</item>
+        <item>USD</item>
+        <item>DKK</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+
+    </string-array>
+
+    <string-array name="currencies2">
+        <item>USD</item>
+
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+
+    </string-array>
+
+
+    <string-array name="lengthArray">
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Inch</item>
+        <item>Foot</item>
+    </string-array>
+
+    //length title
+    <string name="lengthTitle">Length Converter</string>
+    //Calculate length button
+
+    <string name="m_cubed">m3</string>
+    <string name="km_cubed">km3</string>
+    <string name="cm_cubed">cm3</string>
+    <string name="mm_cubed">mm3</string>
+    <string name="liter">l</string>
+    <string name="milliliter">ml</string>
+    <string name="gallon">gal (US)</string>
+    <string name="quart">qt (US)</string>
+    <string name="pint">pt (US)</string>
+    <string name="fluid_ounce">fl oz (US)</string>
+    <string name="tablespoon">tbsp (US)</string>
+    <string name="teaspoon">tsp (US)</string>
+
+
+</resources>

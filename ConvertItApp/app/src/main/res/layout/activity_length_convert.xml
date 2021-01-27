@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/lenth"
+
+    tools:context=".LengthConvert">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/textViewLen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:text="@string/lengthTitle" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:clipChildren="false"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textViewFrom"
+                android:layout_width="59dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:text="@string/massFrom"
+                android:gravity="center_vertical"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/edFromLen"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <Spinner
+                android:id="@+id/spinnerFromLen"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:entries="@array/lengthArray"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:clipChildren="false"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textViewTo"
+                android:layout_width="59dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:text="@string/massTo"
+                android:gravity="center_vertical"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/tvToLen"
+                android:layout_width="100dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:inputType="number" />
+
+            <Spinner
+                android:id="@+id/spinnerToLen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:entries="@array/lengthArray"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/calcLenBtn"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/calcMass" />
+
+            <Button
+                android:id="@+id/clrLenBtn"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/clrMass" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
